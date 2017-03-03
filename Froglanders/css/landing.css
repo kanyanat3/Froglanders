@@ -17,7 +17,6 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #777;
-  background: #fff;
 }
 
 #page {
@@ -677,7 +676,7 @@ form label {
 }
 
 .primary-color {
-  color: #9ecc4b !important;
+  color: #313131 !important;
 }
 
 #gtco-header .display-tc,
@@ -803,10 +802,10 @@ form label {
 }
 
 #gtco-features {
-  background: #FDFCF1;
+  background: #fff;
 }
 #gtco-features .gtco-heading h2 {
-  color: #2E2E2E;
+  color: #313131;
 }
 #gtco-features .gtco-heading p {
   color: rgba(255, 255, 255, 0.7);
@@ -2255,7 +2254,7 @@ form label {
     display: table-cell;
     width: 33.33%;
     height: 340px;
-    border: 7px solid #fff;
+    border: 15px solid #fff7ed;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat
@@ -2335,7 +2334,7 @@ form label {
 
 .gridtable .gridrow .gridcell-flavour-tub {
     height: 510px;
-    background-color: #f6f6f6;
+    background-color: #fff;
     background-position: center bottom
 }
 
@@ -2528,7 +2527,7 @@ form label {
 
 .our-story {
   height: 900px;
-  background-size: cover;
+  /*background-size: cover;*/
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
@@ -2717,5 +2716,74 @@ img {
   display: block;
   margin: 0 auto;
   }
+
+  .berries {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left:0px;
+    right:950px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -230px;
+  }
+
+    .berries-mobile {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left:0px;
+    right:950px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -230px;
+  }
+
+  .froyo {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 850px;
+    right:0px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -345px;
+  }
+
+  .froyo-mobile {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 850px;
+    right:0px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -345px;
+  }
+
+    .blueb {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 0px;
+    right: 650px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -330px;
+  }
+
+
+    .blueb-mobile {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 0px;
+    right: 650px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -330px;
+  }
+
+
 
 /*# sourceMappingURL=style.css.map */
