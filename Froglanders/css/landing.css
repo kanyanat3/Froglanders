@@ -159,6 +159,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+
 .gtco-nav ul li a:hover, .gtco-nav ul li a:focus, .gtco-nav ul li a:active {
   color: white;
 }
@@ -219,7 +220,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #FBB448;
 }
 .gtco-nav ul li.has-dropdown .dropdown li.active > a {
-  color: #000 !important;
+  color: #fff !important;
 }
 .gtco-nav ul li.has-dropdown:hover a, .gtco-nav ul li.has-dropdown:focus a {
   color: #fff;
@@ -230,7 +231,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-nav ul li.btn-cta a span {
   border: 2px solid rgba(255, 255, 255, 0.5);
   padding: 4px 20px;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -248,7 +249,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #9ecc4b;
 }
 .gtco-nav ul li.active > a {
-  color: #FBB448 !important;
+  color: #fff !important;
 }
 
 #gtco-header {

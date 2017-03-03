@@ -159,6 +159,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+
 .gtco-nav ul li a:hover, .gtco-nav ul li a:focus, .gtco-nav ul li a:active {
   color: white;
 }
@@ -219,7 +220,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #FBB448;
 }
 .gtco-nav ul li.has-dropdown .dropdown li.active > a {
-  color: #000 !important;
+  color: #fff !important;
 }
 .gtco-nav ul li.has-dropdown:hover a, .gtco-nav ul li.has-dropdown:focus a {
   color: #fff;
