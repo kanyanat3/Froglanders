@@ -5,6 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 /* =======================================================
 *
 * 	Template Style
@@ -47,7 +48,7 @@ body {
 }
 
 .landing-menu a {
-  color: #ffc63a;
+  color: #4c4c4c;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -55,19 +56,19 @@ body {
 }
 
 .landing-menu a:hover, a:active, a:focus {
-  color: #ffb400;
+  color: #2E2E2E;
   outline: none;
   text-decoration: none;
 }
 
 a {
-  color: #9ecc4b;
+  color: #ffdd93;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #FBB448;
+  color: #212121;
   outline: none;
   text-decoration: none;
 }
@@ -464,7 +465,6 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transform: scale(1.2);
   transform: scale(1.2);
 }
-
 .gtco-cover {
   height: 900px;
   background-size: cover;
@@ -476,9 +476,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .gtco-cover a {
   color: #FBB448;
+  font-size: 18px;
 }
 .gtco-cover a:hover {
-  color: white;
+  color: #2E2E2E;
+  font-size: 18px;
 }
 .gtco-cover .overlay {
   z-index: 1;
@@ -511,23 +513,23 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .gtco-cover.gtco-cover-sm {
-  height: 600px;
+  height: 350px;
 }
 @media screen and (max-width: 768px) {
   .gtco-cover.gtco-cover-sm {
-    height: 400px;
+    height: 300px;
   }
 }
 .gtco-cover.gtco-cover-sm .display-t,
 .gtco-cover.gtco-cover-sm .display-tc {
-  height: 600px;
+  height: 415px;
   display: table;
   width: 100%;
 }
 @media screen and (max-width: 768px) {
   .gtco-cover.gtco-cover-sm .display-t,
   .gtco-cover.gtco-cover-sm .display-tc {
-    height: 400px;
+    height: 325px;
   }
 }
 .gtco-cover.gtco-cover-xs {
@@ -701,22 +703,22 @@ form label {
 .gtco-cover .display-tc h2 {
   margin: 0;
   padding: 0;
-  color: white;
+  color: #2E2E2E;
 }
 #gtco-header .display-tc h1,
 #gtco-counter .display-tc h1,
 .gtco-cover .display-tc h1 {
   margin-bottom: 30px;
-  font-size: 59px;
-  line-height: 1.2;
+  font-size: 20px;
+  line-height: 1.5;
   font-weight: 300;
 }
 @media screen and (max-width: 768px) {
   #gtco-header .display-tc h1,
   #gtco-counter .display-tc h1,
   .gtco-cover .display-tc h1 {
-    font-size: 34px;
-    line-height: 1.2;
+    font-size: 20px;
+    line-height: 1.5;
     margin-bottom: 10px;
   }
 }
@@ -801,10 +803,10 @@ form label {
 }
 
 #gtco-features {
-  background: #546672;
+  background: #FDFCF1;
 }
 #gtco-features .gtco-heading h2 {
-  color: #fff;
+  color: #2E2E2E;
 }
 #gtco-features .gtco-heading p {
   color: rgba(255, 255, 255, 0.7);
@@ -924,6 +926,7 @@ form label {
 @media screen and (max-width: 768px) {
   .gtco-heading h2 {
     font-size: 26px;
+    padding-top: 30px;
   }
 }
 .gtco-heading p {
@@ -1806,10 +1809,11 @@ form label {
   text-decoration: none !important;
 }
 .fh5co-card-item .fh5co-text h2 {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
   margin: 0 0 10px 0;
-  color: #D74669;
+  color: #FBB448;
+  /*text-transform: uppercase;*/
 }
 .fh5co-card-item .fh5co-text span {
   color: #b3b3b3;
@@ -1970,6 +1974,7 @@ form label {
     font-size: 26px;
   }
 }
+
 
 /*-------
 
@@ -2245,6 +2250,17 @@ form label {
     background-repeat: no-repeat
 }
 
+.gridtable .gridrow .gridcell-flavour{
+    vertical-align: top;
+    display: table-cell;
+    width: 33.33%;
+    height: 340px;
+    border: 7px solid #fff;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
 .gridtable .gridrow .gridcell .inside {
     width: 80%;
     margin: 0 auto;
@@ -2350,7 +2366,7 @@ form label {
 }
 
 .gridtable .gridrow .gridcell-flavour-tub p.buy a:hover {
-    border-bottom-color: #46b8e7
+    border-bottom-color: #FBB448
 }
 
 @media all and (max-width:900px) {
@@ -2507,5 +2523,199 @@ form label {
         margin-right: 2.5px
     }
 }
+
+/* Our Story Landing Page */
+
+.our-story {
+  height: 900px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.our-story a {
+  color: #FBB448;
+  font-size: 18px;
+}
+.our-story a:hover {
+  color: #2E2E2E;
+  font-size: 18px;
+}
+.our-story .overlay {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.our-story > .gtco-container {
+  position: relative;
+  z-index: 10;
+}
+@media screen and (max-width: 768px) {
+  .our-story {
+    height: 600px;
+  }
+}
+.our-story .display-t,
+.our-story .display-tc {
+  height: 900px;
+  display: table;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .our-story .display-t,
+  .our-story .display-tc {
+    height: 600px;
+  }
+}
+.our-story.our-story-sm {
+  height: 350px;
+}
+@media screen and (max-width: 768px) {
+  .our-story.our-story-sm {
+    height: 300px;
+  }
+}
+.our-story.our-story-sm .display-t,
+.our-story.our-story-sm .display-tc {
+  height: 415px;
+  display: table;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .our-story.our-story-sm .display-t,
+  .our-story.our-story-sm .display-tc {
+    height: 325px;
+  }
+}
+.our-story.our-story-xs {
+  height: 500px;
+}
+@media screen and (max-width: 768px) {
+  .our-story.our-story-xs {
+    height: inherit !important;
+    padding: 3em 0;
+  }
+}
+.our-story.our-story-xs .display-t,
+.our-story.our-story-xs .display-tc {
+  height: 500px;
+  display: table;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .our-story.our-story-xs .display-t,
+  .our-story.our-story-xs .display-tc {
+    padding: 3em 0;
+    height: inherit !important;
+  }
+}
+.our-story p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 20px !important;
+  font-weight: 300;
+}
+
+.our-story .display-tc {
+  display: table-cell !important;
+  vertical-align: middle;
+}
+
+.our-story .display-tc .intro-text-small {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: .15em;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.our-story .display-tc h1 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+#footer-background {
+  padding: 7em 0;
+  background: #130d08 url(../images/wood_1.png) repeat;
+}
+
+/* Featured Items */
+
+.border {
+  display: inline-block;
+  position: relative;
+}
+.border::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: inset 0 0 0 0 rgba(255,255,255,1);
+  transition: box-shadow .5s ease;
+}
+.border:hover::after {
+  box-shadow: inset 0 0 0 10px rgba(255,255,255, 1);
+}
+img {
+  display: block;
+  position: relative;
+}
+
+/* Featured Items */
+.quoteView {
+  height: 150px;
+  padding-top: 20px;
+  padding-left: 15px;
+
+
+  blockquote {
+    border-width: 4px;
+    border-color: @darkGreen;
+    padding: 0 2rem;
+    margin-top: 100px;
+
+    h3 { margin-top: 0; }
+    h4 { color: @lightGreen; }
+  }
+}
+
+@media (max-width: 991px) {
+  .quoteView { height: 180px; }
+}
+
+  .quoteView {
+    height: 210px;
+
+    blockquote {
+      margin-top: 60px;
+
+      h3 { font-size: 20px; }
+      h4 { font-size: 15px; }
+    }
+  }
+
+  /* Center Logo on Mobile */
+
+  @media screen and (max-width: 768px) {
+    .gtco-container img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+.center img {
+  display: block;
+  margin: 0 auto;
+  }
 
 /*# sourceMappingURL=style.css.map */

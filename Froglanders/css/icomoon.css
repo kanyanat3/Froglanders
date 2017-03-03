@@ -802,7 +802,7 @@
   content: "\e980";
 }
 .icon-circle:before {
-  content: "\e981";
+  /*content: "\e981";*/
 }
 .icon-circular-graph:before {
   content: "\e982";
