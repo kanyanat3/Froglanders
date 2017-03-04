@@ -2785,6 +2785,17 @@ img {
     margin-top: -330px;
   }
 
+      .cream {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 300px;
+    right: 0px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -30px;
+  }
+
 
 
 /*# sourceMappingURL=style.css.map */
