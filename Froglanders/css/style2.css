@@ -2156,7 +2156,8 @@ form label {
 }
 
 .inactiveDrink h3 {
-    color: #DEEFC5;
+    color: #CDCDCD;
+    font-weight: 300;
 }
 
 .menuTitleLabel img {
@@ -2184,7 +2185,8 @@ form label {
 .coffeePhoto {
     text-align: center;
     max-width: 100%;
-    padding-right: 6em ;
+    padding-right: 2em;
+    padding-left: 6em;
 }
 
 .smoothiePhoto{
@@ -2243,8 +2245,9 @@ form label {
 }
 
 .coffeeMenuSection{
- padding-right: 12em;
+ padding-right: 7em;
   padding-left: 5em; 
+  padding-bottom: 2em;
 }
 
 .col-xs-2 p{
@@ -2258,9 +2261,22 @@ form label {
       padding-top: 2em;
     }
 
+
+    .coffeeMenuSection{
+     padding-right: 0em;
+      padding-left: 5em; 
+      padding-bottom: 2em;
+    }
+
   }
 
 @media screen and (max-width: 768px) {
+
+    .coffeePhoto{
+      width:0;
+      height:0;
+      margin-top:-300px;
+    }
     .coffeePhoto {
         padding: 0 1em 1em 1em
     }
@@ -2274,9 +2290,10 @@ form label {
       padding-top: 2em;
     }
 
-        .smoothiePhoto{
+    .smoothiePhoto{
       max-width: 60%;
     }
+
 
 
   }
@@ -2306,7 +2323,7 @@ form label {
  }
 
 body{
-  background-color: #BEDD90;
+  /*background-color: #BEDD90;*/
  }
 
  .flavorCategory{
@@ -2365,7 +2382,7 @@ body{
  /*-----------------------
 ----------NAV BAR---------
 ------------------------*/
-
+/*
 .gtco-nav{
   background-color: white;
 }
@@ -2382,7 +2399,7 @@ body{
   border: 2px solid #ACACAC;
   color: #E59B2F;
 }
-
+*/
 
  /*-----------------------------------
 ------CHANGES TO PREVIOUS CODE------
@@ -2425,8 +2442,10 @@ body{
 }
 
 .coffeePhoto{
-  padding-left: 0;
-  padding-top:0;
+  padding-left: 6em;
+  padding-right:0;
+  padding-top:30px;
+  padding-bottom:30px;
 }
 
 .coffeePhoto img{
@@ -2434,9 +2453,9 @@ body{
   background-size:cover;*/
 }
 
-.gtco-nav{
+/*.gtco-nav{
   position:static;
-}
+}*/
 
 .gtco-section{
   padding:0;
