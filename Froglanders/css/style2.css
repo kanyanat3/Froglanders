@@ -2419,10 +2419,6 @@ form label {
   padding-top: 2em;
  }
 
-body{
-  /*background-color: #BEDD90;*/
- }
-
  .flavorCategory{
   margin: 1em;
   margin-bottom: 0.3em;
@@ -2473,30 +2469,6 @@ body{
 
  }
 
-
-
-
- /*-----------------------
-----------NAV BAR---------
-------------------------*/
-/*
-.gtco-nav{
-  background-color: white;
-}
-
-#gtco-logo a{
-  color: #92C14D;
-}
-
-.text-right ul li a{
-  color: #767676;
-}
-
-.gtco-nav ul li.btn-cta a span {
-  border: 2px solid #ACACAC;
-  color: #E59B2F;
-}
-*/
 
  /*-----------------------------------
 ------CHANGES TO PREVIOUS CODE------
