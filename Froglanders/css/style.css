@@ -2509,4 +2509,45 @@ form label {
     }
 }
 
+/* Contact Page Image Grid */
+.image-grid {
+  overflow: auto;
+  text-align: center;
+}
+
+.image-grid div {
+  width: 350px;
+  height: 250px;
+  display: inline-block;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  margin: 1px;
+  position: relative;
+}
+
+.image-grid div span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 5px;
+  text-align: left;
+}
+
+@media screen and (max-width: 480px) {
+.image-grid div {
+  width: 96%;
+  padding-bottom: 67%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 900px) {
+    .contact-section {
+      padding-top: 6.25rem; } }
+
 /*# sourceMappingURL=style.css.map */
