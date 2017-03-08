@@ -2796,6 +2796,12 @@ img {
     margin-top: -30px;
   }
 
+    @media screen and (max-width: 768px) {
+
+    .mbr-footer-content  {
+text-align: center;
+    }
+  }
 
 
 /*# sourceMappingURL=style.css.map */
