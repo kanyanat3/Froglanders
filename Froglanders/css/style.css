@@ -2550,4 +2550,17 @@ form label {
     .contact-section {
       padding-top: 6.25rem; } }
 
+  /* Center Footer Logo on Mobile */
+
+  @media screen and (max-width: 768px) {
+    .mbr-footer-content img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .mbr-footer-content  {
+text-align: center;
+    }
+  }
+
 /*# sourceMappingURL=style.css.map */
