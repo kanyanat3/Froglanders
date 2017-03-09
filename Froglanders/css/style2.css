@@ -2259,7 +2259,7 @@ form label {
 
 .menuTitleLabel img {
     width: 100%;
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 .coffeeItems h4{
@@ -2311,7 +2311,7 @@ form label {
 }
 
 .menuRow{
-  margin-right: 5.5em;
+/*  margin-right: 5.5em;*/
   padding-top: 2em;
 }
 
@@ -2342,26 +2342,41 @@ form label {
 }
 
 .coffeeMenuSection{
- padding-right: 7em;
-  padding-left: 5em; 
+  width: 40%;
+  padding: 0;
   padding-bottom: 2em;
+  margin:0 30% 0 30%;
+}
+
+.snsMenuSection{
+  width: 40%;
+  margin:0 30% 0 30%;
 }
 
 .col-xs-2 p{
   text-align: center;
 }
 
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.menuTitleLabel img{
+  height: 0.4em;
+}
+
  @media screen and (max-width: 1000px) {
 
     .menuRow{
-      margin: 1em 4em 0 0;
       padding-top: 2em;
     }
 
 
     .coffeeMenuSection{
-     padding-right: 0em;
-      padding-left: 5em; 
+      width: 80%;
+      margin-right: 10%;
+      margin-left: 10%;
       padding-bottom: 2em;
     }
 
@@ -2555,7 +2570,7 @@ form label {
 
 @media screen and (max-width: 1000px) {
   .menuRow{
-      margin: 0em 4em 0 0;
+/*      margin: 0em 4em 0 0;*/
       padding-top: 0em;
     }
 }
