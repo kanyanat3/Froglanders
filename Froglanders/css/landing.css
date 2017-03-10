@@ -1132,6 +1132,11 @@ form label {
     display: block;
   }
 }
+
+#gtco-offcanvas .active { 
+  color: #9ecc4b  !important;
+ }
+ 
 .offcanvas #gtco-offcanvas {
   -moz-transform: translateX(0px);
   -webkit-transform: translateX(0px);
