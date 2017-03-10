@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .gtco-nav ul li.btn-cta a {
-  color: #9ecc4b;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .gtco-nav .btn-cta .active {
