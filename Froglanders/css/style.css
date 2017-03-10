@@ -98,6 +98,14 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #FBB448;
 }
 
+@media screen and (max-width: 600px) {
+  .gtco-container .about-pic {
+    padding-bottom: 50px;
+    width: 100%;
+    height: auto;
+  }
+  }
+
 .gtco-container {
   max-width: 1100px;
   position: relative;
