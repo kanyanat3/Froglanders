@@ -632,7 +632,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-contact-info {
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
   float: left;
   width: 100%;
   position: relative;
@@ -2451,7 +2451,8 @@ form label {
 
 @media all and (max-width:900px) {
     .gridtable {
-        display: block
+        display: block;
+        padding-bottom: 50px;
     }
     .gridtable .gridrow {
         display: block

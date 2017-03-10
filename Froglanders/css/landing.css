@@ -2454,7 +2454,8 @@ form label {
 
 @media all and (max-width:900px) {
     .gridtable {
-        display: block
+        display: block;
+        padding-bottom: 50px;
     }
     .gridtable .gridrow {
         display: block
