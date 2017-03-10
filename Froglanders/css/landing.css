@@ -2127,6 +2127,17 @@ form label {
   }
 }
 
+@media screen and (max-width: 900px) {
+  .landing-hide {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
 @media screen and (min-width: 600px) {
   .web-hide {
     visibility: hidden;
