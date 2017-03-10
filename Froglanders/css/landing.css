@@ -160,8 +160,12 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.3s;
 }
 
+.gtco-nav ul li a .active-link {
+color: green;
+}
+
 .gtco-nav ul li a:hover, .gtco-nav ul li a:focus, .gtco-nav ul li a:active {
-  color: white;
+  color: white !important;
 }
 .gtco-nav ul li.has-dropdown {
   position: relative;
@@ -1136,6 +1140,7 @@ form label {
 }
 #gtco-offcanvas a {
   color: rgba(255, 255, 255, 0.5);
+  font-size: 25px;
 }
 #gtco-offcanvas a:hover {
   color: rgba(255, 255, 255, 0.8);
@@ -1171,7 +1176,8 @@ form label {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\e921";
-  font-size: 20px;
+  font-size: 35px;
+  padding-top: 6px;
   color: rgba(255, 255, 255, 0.2);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
