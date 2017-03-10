@@ -228,6 +228,11 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-nav ul li.btn-cta a {
   color: #9ecc4b;
 }
+
+.gtco-nav .btn-cta .active {
+  background: #fff !important;
+  color: #9ecc4b !important;
+}
 .gtco-nav ul li.btn-cta a span {
   border: 2px solid rgba(255, 255, 255, 0.5);
   padding: 4px 20px;
@@ -1228,6 +1233,10 @@ form label {
 .gototop a:hover, .gototop a:active, .gototop a:focus {
   text-decoration: none;
   outline: none;
+}
+
+.gtco-nav .active {
+  color: #a1c95a !important;
 }
 
 .gtco-nav-toggle {
