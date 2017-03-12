@@ -76,7 +76,7 @@
 
 	
 	<!-- <div class="page-inner"> -->
-	  <nav class="gtco-nav" role="navigation">
+	  <nav class="gtco-nav" role="navigation" style="background-color: rgba(0,0,0,0.3)">
             <div class="gtco-container">
                 <div class="row">
                     <div class="col-sm-4 col-xs-12">
@@ -104,22 +104,80 @@
         </nav>
 	
 
-	   <header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url(images/Menu_Froyo.JPG)">
+	  <header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="padding:0 !important; height: 100%">
 		<div class="overlay"></div>
-		<div class="gtco-container">
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0 text-center">
+		<div class="gtco-container" style="margin:0; padding:0; max-width: 100%">
 
-					<div class="row row-mt-15em">
-						<div class="col-md-12 mt-text animate-box" data-animate-effect="fadeInUp">
-							<!--<span class="intro-text-small">Hand-crafted by <a href="http://gettemplates.co" target="_blank">GetTemplates.co</a></span>-->
-							<h1 class="cursive-font">Frozen Yogurt</h1>
-						</div>
 
-					</div>
 
-				</div>
-			</div>
+			 <!-- reference examples at http://www.idangero.us/swiper/demos/#.Vl8kD9-rRHc -->
+        <section id="lab_video_slider">
+          <div class="container-fluid" style="margin:0; padding:0">
+            <div class="row" style="height: 100%">
+              <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+              <!-- Link Swiper's CSS -->
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/css/swiper.min.css">
+
+              <!-- Swiper -->
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div id="slide_one" class="swiper-slide" style="margin-right:0 !important">
+                      <img src="images/menuheaders/froyo1.JPG" style="width: 100%; object-fit: cover">
+                      <h1 class="cursive-font menuTitle" style="text-align:center">Frozen Yogurt</h1>
+                  </div>
+
+                  <div id="slide_two" class="swiper-slide" style="margin-right:0 !important">
+                    <img src="images/menuheaders/froyo2.JPG" style="width: 100%; object-fit: cover">
+                    <h1 class="cursive-font menuTitle" style="text-align:center">Frozen Yogurt</h1>
+                  </div>
+
+                  <div id="slide_three" class="swiper-slide" style="margin-right:0 !important">
+                    <img src="images/menuheaders/yogurtpie1.JPG" style="width: 100%; object-fit: cover">
+                    <h1 class="cursive-font menuTitle" style="text-align:center">Frozen Yogurt</h1>
+                  </div>
+
+                  <div id="slide_four" class="swiper-slide" style="margin-right:0 !important">
+                    <img src="images/menuheaders/yogurt_kids.JPG" style="width: 100%; object-fit: cover">
+                    <h1 class="cursive-font menuTitle" style="text-align:center">Frozen Yogurt</h1>
+                  </div>
+
+                  <div id="slide_five" class="swiper-slide" style="margin-right:0 !important">
+                    <img src="images/menuheaders/bananasplit1.JPG" style="width: 100%; object-fit: cover">
+                    <h1 class="cursive-font menuTitle" style="text-align:center">Frozen Yogurt</h1>
+                  </div>
+
+                </div>
+
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+
+              <!-- Swiper JS -->
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/js/swiper.min.js"></script>
+
+              <!-- Initialize Swiper -->
+              <script>
+                var swiper = new Swiper('.swiper-container', {
+                    pagination: '.swiper-pagination',
+                    paginationClickable: true,
+                    nextButton: '.swiper-button-next',
+                    prevButton: '.swiper-button-prev',
+                    spaceBetween: 30,
+                    autoplay: 4000,
+                    autoplayDisableOnInteraction: false
+                });
+              </script>
+            </div>
+            <!-- end .row -->
+          </div>
+          <!-- end .container-->
+          </div>
+          <!-- end #section -->
 		</div>
 	</header>
 	
@@ -221,6 +279,90 @@
 					</div>
 				</div>
 			</div>
+
+
+
+
+
+
+
+			<div class="row menuRow froyoMenuRow" >
+
+				<div class="row menuItemsRow">   <!-- START OF ACTUAL MENU -->
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12  snsMenuSection">
+						<div class= "menuTitleLabel">
+							<div class= "menuTitleLabel smoothieMenuTitleLabel">
+									<h3 style=""> Frozen Yogurt Sizes </h3>
+									<img src="images/line_centerGreen.png">
+							</div>
+
+							<div class="coffeeItems fourthSection" style="padding:0px">
+								<div class="col-xs-6" style="padding:0 1em 0 0 ; text-align: right" >
+									<p> 
+										Kid Tad <br/>
+										Tadpole <br/>
+										Small-ish <br/>
+										Bullfrog <br/>
+										Toppings <br/>
+										Waffle Cone <br/>
+										Banana Split <br/>
+									</p>
+								</div>
+								<div class="col-xs-6" style="padding:0 0 0 1em; text-align: left" >
+									<p> 
+										2.60 <br/>
+										3.45 <br/>
+										4.30 <br/>
+										6.00 <br/>
+										0.60/1.20 <br/>
+										0.35 <br/>
+										5.75 <br/>
+									</p>
+								</div>
+							</div>
+
+
+
+
+						</div>
+					</div> <!-- END SMOOTHIES SECTION -->
+
+
+
+
+
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 snsMenuSection">
+						<div class= "menuTitleLabel">
+							<div class= "menuTitleLabel smoothieMenuTitleLabel">
+									<h3> Take Home Sizes </h3>
+									<img src="images/line_centerGreen.png">
+							</div>
+
+							<div class="coffeeItems fourthSection" style="padding:0 1em 0 0 ; text-align: right">
+								<div class="col-xs-6" style="padding:0px" >
+									<p> 
+										Big <br/>
+										Giant <br/>
+										Yogurt Pie 
+									</p>
+								</div>
+								<div class="col-xs-6" style="padding:0 0 0 1em; text-align: left" >
+									<p> 
+										7.00 <br/>
+										9.50 <br/>
+										12.50
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>   <!-- END OF MENUROW -->
+
+
+
+
 
 		</div>
 	</div>

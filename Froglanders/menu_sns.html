@@ -76,7 +76,7 @@
 
 	
 	<!-- <div class="page-inner"> -->
-	 	 <nav class="gtco-nav" role="navigation">
+	 	 <nav class="gtco-nav" role="navigation" style="background-color: rgba(0,0,0,0.3)">
             <div class="gtco-container">
                 <div class="row">
                     <div class="col-sm-4 col-xs-12">
@@ -104,140 +104,190 @@
         </nav>
 	
 
-        <header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url(images/Menu_sns.jpg)">
+          <header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="padding:0 !important; height: 100%">
 		<div class="overlay"></div>
-		<div class="gtco-container">
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0 text-center">
+		<div class="gtco-container" style="margin:0; padding:0; max-width: 100%">
 
-					<div class="row row-mt-15em">
-						<div class="col-md-12 mt-text animate-box" data-animate-effect="fadeInUp">
-							<!--<span class="intro-text-small">Hand-crafted by <a href="http://gettemplates.co" target="_blank">GetTemplates.co</a></span>-->
-							<h1 class="cursive-font">Smoothies and Shakes</h1>
-						</div>
 
-					</div>
 
-				</div>
-			</div>
+			 <!-- reference examples at http://www.idangero.us/swiper/demos/#.Vl8kD9-rRHc -->
+        <section id="lab_video_slider">
+          <div class="container-fluid" style="margin:0; padding:0">
+            <div class="row" style="height: 100%">
+              <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+              <!-- Link Swiper's CSS -->
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/css/swiper.min.css">
+
+              <!-- Swiper -->
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div id="slide_one" class="swiper-slide" style="margin-right:0 !important">
+                      <img src="images/menuheaders/shakes.JPG" style="width: 100%; object-fit: cover">
+                      <h1 class="cursive-font menuTitle" style="text-align:center">Smoothies & Shakes</h1>
+                  </div>
+
+                  <div id="slide_two" class="swiper-slide" style="margin-right:0 !important">
+                    <img src="images/menuheaders/smoothie.JPG" style="width: 100%; object-fit: cover">
+                    <h1 class="cursive-font menuTitle" style="text-align:center">Smoothies & Shakes</h1>
+                  </div>
+                </div>
+
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+
+              <!-- Swiper JS -->
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/js/swiper.min.js"></script>
+
+              <!-- Initialize Swiper -->
+              <script>
+                var swiper = new Swiper('.swiper-container', {
+                    pagination: '.swiper-pagination',
+                    paginationClickable: true,
+                    nextButton: '.swiper-button-next',
+                    prevButton: '.swiper-button-prev',
+                    spaceBetween: 30,
+                    autoplay: 4000,
+                    autoplayDisableOnInteraction: false
+                });
+              </script>
+            </div>
+            <!-- end .row -->
+          </div>
+          <!-- end .container-->
+          </div>
+          <!-- end #section -->
 		</div>
 	</header>
 	
 	<div class="gtco-section pageSection">
 		<div class="gtco-container gtcoContainer">
-			<div class="row menuRow">
+			<div class="row menuRow snsMenuRow">
 
 				<div class="row menuItemsRow">   <!-- START OF ACTUAL MENU -->
-						
-					</div>  <!-- END OF COFFEE HALF-PAGE -->
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 coffeeMenuSection snsMenuSection">
-						<div class= "menuTitleLabel">
-								<div class= "menuTitleLabel smoothieMenuTitleLabel">
-										<h3> Shakes </h3>
-										<img src="images/line_centerGreen.png">
-								</div>
-
-						<div class="coffeeItems fourthSection" style="padding:0px">
-							<div class="col-xs-6" style="padding:0px" >
-								<p> <br/>
-									Peanut Butter Monkey <br/>
-									Pure Mango <br/>
-									Chocolate Grasshopper <br/>
-									Strawnana <br/>
-									Lover's Leap <br/>
-									Plain Yogurt Shake <br/>
-								</p>
-							</div>
-							<div class="col-xs-2" style="padding:0px" >
-								<p> 
-									 <br/>
-									 <br/>
-									 <br/>
-									 <br/>
-									 <br/>
-									 <br/>
-									 <br/>
-								</p>
-							</div>
-							<div class="col-xs-2" style="padding:0px" >
-								<p> 
-									<strong style="text-decoration:underline"> 12 oz </strong> <br/>
-									4.50 <br/>
-									4.50 <br/>
-									4.50 <br/>
-									4.50 <br/>
-									4.50 <br/>
-									4.50 <br/>
-								</p>
-							</div>
-							<div class="col-xs-2" style="padding:0px" >
-								<p> 
-									<strong style="text-decoration:underline"> 20 oz </strong> <br/>
-									5.75 <br/>
-									5.75 <br/>
-									5.75 <br/>
-									5.75 <br/>
-									5.75 <br/>
-									5.75 <br/>
-								</p>
-							</div>
-						</div>
-
-
-
-
 						<!-- Smoothies -->
-						<div class= "menuTitleLabel">
-								<div class= "menuTitleLabel smoothieMenuTitleLabel">
-										<h3 style="padding-top: 150px"> Smoothies </h3>
-										<img src="images/line_centerGreen.png">
-								</div>
 
-						<div class="coffeeItems fourthSection" style="padding:0px">
-							<div class="col-xs-6" style="padding:0px" >
-								<p> <br/>
-									Hawaiian Delight <br/>
-									La Jolla Sunrise <br/>
-									La Jolla Midday <br/>
-									La Jolla Sunset <br/>
-									Protein Paradise <br/>
-									Strawberry Splash <br/>
-								</p>
+
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12  snsMenuSection">
+						<div class= "menuTitleLabel">
+							<div class= "menuTitleLabel smoothieMenuTitleLabel">
+									<h3 style=""> Smoothies </h3>
+									<img src="images/line_centerGreen.png">
 							</div>
-							<div class="col-xs-2" style="padding:0px" >
-								<p> 
-									 <br/>
-									 <br/>
-									 <br/>
-									 <br/>
-									 <br/>
-									 <br/>
-								</p>
+
+							<div class="coffeeItems fourthSection" style="padding:0px">
+								<div class="col-xs-6" style="padding:0px" >
+									<p> <br/>
+										Hawaiian Delight <br/>
+										La Jolla Sunrise <br/>
+										La Jolla Midday <br/>
+										La Jolla Sunset <br/>
+										Protein Paradise <br/>
+										Strawberry Splash <br/>
+									</p>
+								</div>
+								<div class="col-xs-2" style="padding:0px" >
+									<p> 
+										 <br/>
+										 <br/>
+										 <br/>
+										 <br/>
+										 <br/>
+										 <br/>
+									</p>
+								</div>
+								<div class="col-xs-2" style="padding:0px" >
+									<p> 
+										<strong style="text-decoration:underline"> 12 oz </strong> <br/>
+										4.50 <br/>
+										4.50 <br/>
+										4.50 <br/>
+										4.50 <br/>
+										4.50 <br/>
+										4.50 <br/>
+									</p>
+								</div>
+								<div class="col-xs-2" style="padding:0px" >
+									<p> 
+										<strong style="text-decoration:underline"> 20 oz </strong> <br/>
+										5.75 <br/>
+										5.75 <br/>
+										5.75 <br/>
+										5.75 <br/>
+										5.75 <br/>
+										5.75 <br/>
+									</p>
+								</div>
 							</div>
-							<div class="col-xs-2" style="padding:0px" >
-								<p> 
-									<strong style="text-decoration:underline"> 12 oz </strong> <br/>
-									4.50 <br/>
-									4.50 <br/>
-									4.50 <br/>
-									4.50 <br/>
-									4.50 <br/>
-									4.50 <br/>
-								</p>
+
+
+
+
+						</div>
+					</div> <!-- END SMOOTHIES SECTION -->
+
+
+
+
+
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 snsMenuSection">
+						<div class= "menuTitleLabel">
+							<div class= "menuTitleLabel smoothieMenuTitleLabel">
+									<h3> Shakes </h3>
+									<img src="images/line_centerGreen.png">
 							</div>
-							<div class="col-xs-2" style="padding:0px" >
-								<p> 
-									<strong style="text-decoration:underline"> 20 oz </strong> <br/>
-									5.75 <br/>
-									5.75 <br/>
-									5.75 <br/>
-									5.75 <br/>
-									5.75 <br/>
-									5.75 <br/>
-								</p>
+
+							<div class="coffeeItems fourthSection" style="padding:0px">
+								<div class="col-xs-6" style="padding:0px" >
+									<p> <br/>
+										Peanut Butter Monkey <br/>
+										Pure Mango <br/>
+										Chocolate Grasshopper <br/>
+										Strawnana <br/>
+										Lover's Leap <br/>
+										Plain Yogurt Shake <br/>
+									</p>
+								</div>
+								<div class="col-xs-2" style="padding:0px" >
+									<p> 
+										 <br/>
+										 <br/>
+										 <br/>
+										 <br/>
+										 <br/>
+										 <br/>
+										 <br/>
+									</p>
+								</div>
+								<div class="col-xs-2" style="padding:0px" >
+									<p> 
+										<strong style="text-decoration:underline"> 12 oz </strong> <br/>
+										4.50 <br/>
+										4.50 <br/>
+										4.50 <br/>
+										4.50 <br/>
+										4.50 <br/>
+										4.50 <br/>
+									</p>
+								</div>
+								<div class="col-xs-2" style="padding:0px" >
+									<p> 
+										<strong style="text-decoration:underline"> 20 oz </strong> <br/>
+										5.75 <br/>
+										5.75 <br/>
+										5.75 <br/>
+										5.75 <br/>
+										5.75 <br/>
+										5.75 <br/>
+									</p>
+								</div>
 							</div>
 						</div>
-
 					</div>
 
 				</div>
