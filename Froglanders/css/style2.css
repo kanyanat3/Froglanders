@@ -274,6 +274,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: block;
   margin-bottom: 10px;
 }
+
 #gtco-header h1, #gtco-header h2 {
   margin: 0;
   padding: 0;
@@ -286,7 +287,9 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 300;
   font-family: "Kaushan Script", cursive !important;
 }
-@media screen and (max-width: 768px) {
+
+
+  @media screen and (max-width: 768px) {
   #gtco-header h1 {
     font-size: 34px;
     line-height: 1.2;
@@ -2617,6 +2620,9 @@ form label {
   background-image: url("images/froyoBG.png");
 }
 
+.swiper-slide img{
+  width: 100%;
+}
 
 @media screen and (max-width: 1000px) {
   .menuRow{
@@ -2638,8 +2644,16 @@ form label {
     .froyoMenuRow{
       margin: 2% 0% 6% 0%;
     }
+
+
  }
 
+
+@media screen and (max-width: 500px) {
+     .swiper-slide img{
+      height: 70vw;
+    }
+}
 
 
 
