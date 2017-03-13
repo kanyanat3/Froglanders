@@ -227,11 +227,19 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .gtco-nav ul li.btn-cta a {
   color: #9ecc4b;
+<<<<<<< HEAD
+=======
+}
+
+.gtco-nav .btn-cta .active {
+  background: #fff !important;
+  color: #9ecc4b !important;
+>>>>>>> refs/remotes/origin/master
 }
 .gtco-nav ul li.btn-cta a span {
   border: 2px solid rgba(255, 255, 255, 0.5);
   padding: 4px 20px;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7)
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -1134,6 +1142,7 @@ form label {
 }
 #gtco-offcanvas a {
   color: rgba(255, 255, 255, 0.5);
+  font-size: 25px;
 }
 #gtco-offcanvas a:hover {
   color: rgba(255, 255, 255, 0.8);
@@ -1169,7 +1178,8 @@ form label {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\e921";
-  font-size: 20px;
+  font-size: 35px;
+  padding-top: 6px;
   color: rgba(255, 255, 255, 0.2);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -1226,6 +1236,10 @@ form label {
 .gototop a:hover, .gototop a:active, .gototop a:focus {
   text-decoration: none;
   outline: none;
+}
+
+.gtco-nav .active {
+  color: #9ecc4b  !important;
 }
 
 .gtco-nav-toggle {

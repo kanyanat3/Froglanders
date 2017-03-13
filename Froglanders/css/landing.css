@@ -161,8 +161,18 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-nav ul li a:hover, .gtco-nav ul li a:focus, .gtco-nav ul li a:active {
+<<<<<<< HEAD
   color: white;
 }
+=======
+  color: white !important;
+}
+
+.gtco-nav .active {
+  color: #9ecc4b  !important;
+}
+
+>>>>>>> refs/remotes/origin/master
 .gtco-nav ul li.has-dropdown {
   position: relative;
 }
@@ -1136,6 +1146,10 @@ form label {
 }
 #gtco-offcanvas a {
   color: rgba(255, 255, 255, 0.5);
+<<<<<<< HEAD
+=======
+  font-size: 25px;
+>>>>>>> refs/remotes/origin/master
 }
 #gtco-offcanvas a:hover {
   color: rgba(255, 255, 255, 0.8);
@@ -1171,7 +1185,12 @@ form label {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\e921";
+<<<<<<< HEAD
   font-size: 20px;
+=======
+  font-size: 35px;
+  padding-top: 6px;
+>>>>>>> refs/remotes/origin/master
   color: rgba(255, 255, 255, 0.2);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
