@@ -61,11 +61,13 @@ body {
 }
 
 a {
-  color: #ffdd93;
+  font-size: 20px;
+  color: #000;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
 a:hover, a:active, a:focus {
   color: #212121;
   outline: none;
@@ -2357,7 +2359,7 @@ form label {
 }
 
 .gridtable .gridrow .gridcell-flavour-tub {
-    height: 510px;
+    height: 475px;
     background-color: #fff;
     background-position: center bottom
 }
@@ -2395,7 +2397,7 @@ form label {
 @media all and (max-width:900px) {
     .gridtable .gridrow .gridcell-flavour-tub {
         height: auto;
-        padding-bottom: 370px
+        padding-bottom: 400px;
     }
 }
 
