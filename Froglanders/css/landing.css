@@ -61,7 +61,8 @@ body {
 }
 
 a {
-  color: #ffdd93;
+  font-size: 20px;
+  color: #000;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
