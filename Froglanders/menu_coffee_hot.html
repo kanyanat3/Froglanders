@@ -8,7 +8,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Menu_Coffee_Hot</title>
+	<title>Menu_Gourmet_Coffee</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by GetTemplates.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -76,7 +76,7 @@
 
 	
 	<!-- <div class="page-inner"> -->
-	  <nav class="gtco-nav" role="navigation">
+	  <nav class="gtco-nav" role="navigation" style="background-color: rgba(0,0,0,0.3)">
             <div class="gtco-container">
                 <div class="row">
                     <div class="col-sm-4 col-xs-12">
@@ -90,6 +90,7 @@
                                 <ul class="dropdown">
                                     <li><a href="menu_froyo.html">Frozen Yogurt</a></li>
                                     <li><a href="menu_coffee_hot.html">Gourmet Coffee</a></li>
+                                    <li><a href="menu_coffee_cold.html">Iced Coffee </a></li>
                                     <li><a href="menu_sns.html">Smoothies & Shakes</a></li>
                                 </ul>
                             </li>
@@ -103,23 +104,63 @@
             </div>
         </nav>
 
-	   <header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url(images/Menu_Coffee_hot.JPG)">
+	   <header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="padding:0 !important; height: 100%">
 		<div class="overlay"></div>
-		<div class="gtco-container">
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0 text-center">
+		<div class="gtco-container" style="margin:0; padding:0; max-width: 100%">
 
-					<div class="row row-mt-15em">
-						<div class="col-md-12 mt-text animate-box" data-animate-effect="fadeInUp">
-							<!--<span class="intro-text-small">Hand-crafted by <a href="http://gettemplates.co" target="_blank">GetTemplates.co</a></span>-->
-							<h1 class="cursive-font">Coffee</h1>
-							<h1 style="font-size: 2em"> Hot Drinks </h1>
-						</div>
 
-					</div>
 
-				</div>
-			</div>
+			 <!-- reference examples at http://www.idangero.us/swiper/demos/#.Vl8kD9-rRHc -->
+        <section id="lab_video_slider">
+          <div class="container-fluid" style="margin:0; padding:0">
+            <div class="row" style="height: 100%">
+              <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+              <!-- Link Swiper's CSS -->
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/css/swiper.min.css">
+
+              <!-- Swiper -->
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div id="slide_one" class="swiper-slide" style="margin-right:0 !important">
+                      <img src="images/menuheaders/hotcoffee1.JPG" style="width: 100%; object-fit: cover">
+                      <h1 class="cursive-font menuTitle" style="text-align:center">Gourmet Coffee</h1>
+                  </div>
+
+                  <div id="slide_two" class="swiper-slide" style="margin-right:0 !important">
+                    <img src="images/menuheaders/hotcoffee2.JPG" style="width: 100%; object-fit: cover">
+                    <h1 class="cursive-font menuTitle" style="text-align:center">Gourmet Coffee</h1>
+                  </div>
+
+                </div>
+
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+
+              <!-- Swiper JS -->
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/js/swiper.min.js"></script>
+
+              <!-- Initialize Swiper -->
+              <script>
+                var swiper = new Swiper('.swiper-container', {
+                    pagination: '.swiper-pagination',
+                    paginationClickable: true,
+                    nextButton: '.swiper-button-next',
+                    prevButton: '.swiper-button-prev',
+                    spaceBetween: 30,
+                    autoplay: 4000,
+                    autoplayDisableOnInteraction: false
+                });
+              </script>
+            </div>
+            <!-- end .row -->
+          </div>
+          <!-- end .container-->
+          </div>
+          <!-- end #section -->
 		</div>
 	</header>
 

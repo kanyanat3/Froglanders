@@ -242,8 +242,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 992px) {
   #gtco-header.gtco-cover {
-    height: inherit !important;
-    padding: 3em 0 !important;
+/*    height: inherit !important;
+    padding: 3em 0 !important;*/
   }
 }
 @media screen and (max-width: 480px) {
@@ -274,6 +274,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: block;
   margin-bottom: 10px;
 }
+
 #gtco-header h1, #gtco-header h2 {
   margin: 0;
   padding: 0;
@@ -286,6 +287,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 300;
   font-family: "Kaushan Script", cursive !important;
 }
+
 @media screen and (max-width: 768px) {
   #gtco-header h1 {
     font-size: 34px;
@@ -521,8 +523,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .gtco-cover.gtco-cover-xs {
-    height: inherit !important;
-    padding: 3em 0;
+/*    height: inherit !important;
+    padding: 3em 0;*/
   }
 }
 .gtco-cover.gtco-cover-xs .display-t,
@@ -534,8 +536,8 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .gtco-cover.gtco-cover-xs .display-t,
   .gtco-cover.gtco-cover-xs .display-tc {
-    padding: 3em 0;
-    height: inherit !important;
+/*    padding: 3em 0;
+    height: inherit !important;*/
   }
 }
 .gtco-cover p {
@@ -1825,7 +1827,7 @@ form label {
   transition: 0.5s;
 }
 .fh5co-card-item:hover/*, .fh5co-card-item:focus*/ {
-  bottom: 7px;
+  bottom: 0px;
   text-decoration: none;
   -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
@@ -1834,11 +1836,11 @@ form label {
   box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
 }
 .fh5co-card-item:hover img, .fh5co-card-item:focus img {
-/*  -webkot-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);*/
+  -webkot-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .fh5co-card-item:hover span.btn, .fh5co-card-item:focus span.btn {
   opacity: 1;
@@ -2234,6 +2236,21 @@ form label {
 .menuPhotoSection {
   max-width: 100%;
   margin:0;
+  padding:0;
+  border-style:solid;
+  border-width: 2px;
+  border-color: white;
+  border-bottom-style: none;
+  border-right-style: none;
+  border-left-style: none;
+}
+
+.menuCard{
+  border-style:solid;
+  border-width: 1px;
+  border-color: white;
+  border-top-style: none;
+
 }
 
 .gtcoSection{
@@ -2355,9 +2372,10 @@ form label {
 }
 
 .snsMenuSection{
-  width: 40%;
-  margin:0 30% 0 30%;
+/*  width: 50%;*/
+  margin:0 ;
 }
+
 
 .col-xs-2 p{
   text-align: center;
@@ -2369,7 +2387,18 @@ form label {
 }
 
 .menuTitleLabel img{
-  height: 0.4em;
+  height: 0.3em;
+}
+
+.headerPhoto img{
+  position:relative;
+  width: 100%;
+}
+
+.headerPhoto h1{
+  position: absolute;
+  top: 200px;
+  
 }
 
  @media screen and (max-width: 1000px) {
@@ -2387,6 +2416,9 @@ form label {
     }
 
   }
+
+
+}
 
 @media screen and (max-width: 768px) {
 
@@ -2413,7 +2445,6 @@ form label {
     }
 
 
-
   }
 
 
@@ -2433,7 +2464,7 @@ form label {
  }
 
  .flavorsRow2{
-  padding-bottom: 4em;
+  padding-bottom: 2em;
  }
 
  .froyoGTCO{
@@ -2466,6 +2497,15 @@ form label {
   margin:0;
 }
 
+.menuTitle {
+  font-size: 4em;
+  margin-top: 3em;
+  position: absolute;
+  top: 70%;
+  text-align: center;
+  width:100%;
+}
+
  @media screen and (max-width: 768px) {
  
   .flavorsRow{
@@ -2496,15 +2536,15 @@ form label {
 ------------------------------------*/
 
 .fh5co-card-item:hover img, .fh5co-card-item:focus img {
-/*  -webkot-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);*/
+  -webkot-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .fh5co-card-item:hover/*, .fh5co-card-item:focus*/ {
-  bottom: 7px;
+  bottom: 0px;
   text-decoration: none;
   -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
@@ -2520,14 +2560,12 @@ form label {
 
 .gtcoContainer{
   margin:0;
-  padding-left: 0;
-  margin-right: 0;
+  padding:0;
   max-width: none;
 }
 
 .menuRow{
-  padding-left: 0;
-  padding-top: 0;
+  padding: 0;
   margin-right:0;
 }
 
@@ -2572,7 +2610,18 @@ form label {
   font-size: 1.3em;
 }
 
+.snsMenuRow{
+  margin: 0% 15% 6% 15%;
+}
 
+.froyoMenuRow{
+  margin: 0em 4em 2em 4em;
+  background-image: url("images/froyoBG.png");
+}
+
+.swiper-slide img{
+  width: 100%;
+}
 
 @media screen and (max-width: 1000px) {
   .menuRow{
@@ -2586,8 +2635,24 @@ form label {
       padding:0;
       margin:0;
     }
+
+    .snsMenuRow{
+      margin: 1% 5% 6% 5%;
+    }
+
+    .froyoMenuRow{
+      margin: 2% 0% 6% 0%;
+    }
+
+
  }
 
+
+@media screen and (max-width: 500px) {
+     .swiper-slide img{
+      height: 70vw;
+    }
+}
 
 
 
