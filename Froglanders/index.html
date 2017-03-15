@@ -377,13 +377,11 @@
 <!--<br/>
 <br/>
 <br/>
-
 		<div class="mobile-hide">
 		<div class="cream animate-box">
 			<img height="150" src="images/cream.png"/>
 		</div>
 		</div>
-
 <br/>
 <br/>-->
 
@@ -473,19 +471,16 @@
 			margin: 0 auto;
 			max-width: 940px;
 		}
-
 		.slide_viewer {
 			height: 550px;
 			overflow: hidden;
 			position: relative;
 		}
-
 		.slide_group {
 			height: 100%;
 			position: relative;
 			width: 100%;
 		}
-
 		.slide {
 			display: none;
 			height: 100%;
@@ -496,32 +491,25 @@
 	.slide:first-child {
 		display: block;
 	}
-
 	.slide:nth-of-type(1) {
 		background: #D7A151;
 	}
-
 	.slide:nth-of-type(2) {
 		background: #F4E4CD;
 	}
-
 	.slide:nth-of-type(3) {
 		background: #C75534;
 	}
-
 	.slide:nth-of-type(4) {
 		background: #D1D1D4;
 	}
-
 	*/
-
 		.slide_buttons {
 			left: 0;
 			position: absolute;
 			right: 0;
 			text-align: center;
 		}
-
 		a.slide_btn {
 			color: #e8ddd3;
 			font-size: 42px;
@@ -532,13 +520,11 @@
 			-o-transition: all 0.4s ease-in-out;
 			transition: all 0.4s ease-in-out;
 		}
-
 		.slide_btn.active,
 		.slide_btn:hover {
 			color: #e5cbb0;
 			cursor: pointer;
 		}
-
 		.directional_nav {
 			height: 340px;
 			margin: 0 auto;
@@ -546,7 +532,6 @@
 			position: relative;
 			top: -340px;
 		}
-
 		.previous_btn {
 			bottom: 0;
 			left: 100px;
@@ -554,7 +539,6 @@
 			position: absolute;
 			top: 0;
 		}
-
 		.next_btn {
 			bottom: 0;
 			margin: auto;
@@ -562,7 +546,6 @@
 			right: 100px;
 			top: 0;
 		}
-
 		.previous_btn,
 		.next_btn {
 			cursor: pointer;
@@ -575,12 +558,10 @@
 			transition: opacity 0.4s ease-in-out;
 			width: 65px;
 		}
-
 		.previous_btn:hover,
 		.next_btn:hover {
 			opacity: 1;
 		}
-
 		@media only screen and (max-width: 767px) {
 			.previous_btn {
 				left: 50px;
@@ -599,19 +580,14 @@
 			var bulletArray = [];
 			var currentIndex = 0;
 			var timeout;
-
 			function move(newIndex) {
 				var animateLeft, slideLeft;
-
 				advance();
-
 				if ($group.is(':animated') || currentIndex === newIndex) {
 					return;
 				}
-
 				bulletArray[currentIndex].removeClass('active');
 				bulletArray[newIndex].addClass('active');
-
 				if (newIndex > currentIndex) {
 					slideLeft = '100%';
 					animateLeft = '-100%';
@@ -619,7 +595,6 @@
 					slideLeft = '-100%';
 					animateLeft = '100%';
 				}
-
 				$slides.eq(newIndex).css({
 					display: 'block',
 					left: slideLeft
@@ -639,7 +614,6 @@
 					currentIndex = newIndex;
 				});
 			}
-
 			function advance() {
 				clearTimeout(timeout);
 				timeout = setTimeout(function() {
@@ -650,7 +624,6 @@
 					}
 				}, 4000);
 			}
-
 			$('.next_btn').on('click', function() {
 				if (currentIndex < ($slides.length - 1)) {
 					move(currentIndex + 1);
@@ -658,7 +631,6 @@
 					move(0);
 				}
 			});
-
 			$('.previous_btn').on('click', function() {
 				if (currentIndex !== 0) {
 					move(currentIndex - 1);
@@ -666,10 +638,8 @@
 					move(3);
 				}
 			});
-
 			$.each($slides, function(index) {
 				var $button = $('<a class="slide_btn">&bull;</a>');
-
 				if (index === currentIndex) {
 					$button.addClass('active');
 				}
@@ -678,7 +648,6 @@
 				}).appendTo('.slide_buttons');
 				bulletArray.push($button);
 			});
-
 			advance();
 		});
 	</script>
