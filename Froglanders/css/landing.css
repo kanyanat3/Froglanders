@@ -2129,7 +2129,7 @@ form label {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .landing-hide {
     visibility: hidden;
     clear: both;
