@@ -2118,7 +2118,7 @@ form label {
     width: 40px; }
 
 /* Slider Gallery */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .mobile-hide {
     visibility: hidden;
     clear: both;
@@ -2129,7 +2129,7 @@ form label {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .landing-hide {
     visibility: hidden;
     clear: both;
