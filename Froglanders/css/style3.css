@@ -478,7 +478,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 80px;
   line-height: 1.5;
   font-weight: 300;
-  font-family: "Kaushan Script", cursive !important;
+  font-family: "Lato", Arial, sans-serif !important;
 }
 @media screen and (max-width: 768px) {
   #gtco-header h1 {
@@ -502,7 +502,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
 }
 #gtco-header .form-wrap h3 {
-  font-family: "Kaushan Script", cursive;
+  font-family: "Lato", Arial, sans-serif;
 }
 #gtco-header .form-wrap .tab-menu {
   padding: 0 !important;
@@ -851,7 +851,7 @@ form label {
 }
 
 .cursive-font {
-  font-family: "Kaushan Script", cursive;
+  font-family: "Lato", Arial, sans-serif;
 }
 
 .primary-color {
