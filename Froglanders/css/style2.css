@@ -2507,6 +2507,28 @@ form label {
 }
 
 
+.sugarFree h3{
+  color: red;
+  font-weight: 200;
+  text-align: center; 
+  padding: 5em 50px 5em 50px; 
+  margin: 1em 0;
+}
+
+.sugarFree h3:hover{
+  background-color: #E6EDDB;
+  transition: 1s;
+  color:#000000;
+}
+.sugarFree a{
+  color:#000000;
+}
+
+.sugarFree a:hover{
+  color:#000000;
+}
+
+
  @media screen and (max-width: 768px) {
  
   .flavorsRow{
