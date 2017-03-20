@@ -2222,7 +2222,9 @@ form label {
 /*-------------------
 ----MENU PAGE----
 -------------------*/
-
+/*#gtco-header h1{
+  font-weight: 500;
+}*/
 
 .menuSection img {
     max-width: 100%;
@@ -2257,6 +2259,8 @@ form label {
   padding:0;
   padding-top:0;
 }
+
+
 
 
 /*-----------------------
