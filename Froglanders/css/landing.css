@@ -8,7 +8,7 @@
 
 /* =======================================================
 *
-*   Template Style
+* 	Template Style
 *
 * ======================================================= */
 body {
@@ -61,12 +61,18 @@ body {
 }
 
 a {
+<<<<<<< HEAD
+  /*font-size: 20px;*/
+  color: #000;
+=======
   color: #000;
   font-size: 20px;
+>>>>>>> viv-branch
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
 a:hover, a:active, a:focus {
   color: #212121;
   outline: none;
@@ -2117,7 +2123,7 @@ form label {
     width: 40px; }
 
 /* Slider Gallery */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .mobile-hide {
     visibility: hidden;
     clear: both;
@@ -2128,7 +2134,7 @@ form label {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
   .landing-hide {
     visibility: hidden;
     clear: both;
@@ -2396,7 +2402,11 @@ form label {
 @media all and (max-width:900px) {
     .gridtable .gridrow .gridcell-flavour-tub {
         height: auto;
+<<<<<<< HEAD
+        padding-bottom: 400px;
+=======
         padding-bottom: 400px
+>>>>>>> viv-branch
     }
 }
 
