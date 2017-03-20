@@ -2506,25 +2506,6 @@ form label {
   width:100%;
 }
 
-.sugarFree h3{
-  font-weight: 200;
-  text-align: center; 
-  padding: 5em 50px 4em 50px; 
-  margin: 1em 0;
-}
-
-.sugarFree h3:hover{
-  background-color: #E6EDDB;
-  transition: 1s;
-  color:gray;
-}
-.sugarFree a{
-  color:gray;
-}
-
-.sugarFree a:hover{
-  color:gray;
-}
 
  @media screen and (max-width: 768px) {
  
