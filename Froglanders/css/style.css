@@ -1861,11 +1861,11 @@ form label {
 .fh5co-card-item:hover, .fh5co-card-item:focus {
   bottom: 7px;
   text-decoration: none;
-  -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+/*  -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
   -ms-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
   -o-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
-  box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);*/
 }
 .fh5co-card-item:hover img, .fh5co-card-item:focus img {
   -webkot-transform: scale(1.2);
@@ -1878,7 +1878,7 @@ form label {
   opacity: 1;
   visibility: visible;
   bottom: 0px;
-  border: 2px solid #fcbe61 !important;
+/*  border: 2px solid #fcbe61 !important;*/
   background: #fcbe61 !important;
 }
 .fh5co-card-item:hover figure .overlay, .fh5co-card-item:focus figure .overlay {
@@ -2587,5 +2587,7 @@ form label {
 text-align: center;
     }
   }
+
+
 
 /*# sourceMappingURL=style.css.map */
