@@ -61,8 +61,13 @@ body {
 }
 
 a {
+<<<<<<< HEAD
   /*font-size: 20px;*/
   color: #000;
+=======
+  color: #000;
+  font-size: 20px;
+>>>>>>> viv-branch
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -2397,7 +2402,11 @@ form label {
 @media all and (max-width:900px) {
     .gridtable .gridrow .gridcell-flavour-tub {
         height: auto;
+<<<<<<< HEAD
         padding-bottom: 400px;
+=======
+        padding-bottom: 400px
+>>>>>>> viv-branch
     }
 }
 
