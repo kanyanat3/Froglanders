@@ -2395,11 +2395,7 @@ form label {
 @media all and (max-width:900px) {
     .gridtable .gridrow .gridcell-flavour-tub {
         height: auto;
-<<<<<<< HEAD
         padding-bottom: 400px;
-=======
-        padding-bottom: 400px
->>>>>>> viv-branch
     }
 }
 
