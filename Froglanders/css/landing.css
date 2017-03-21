@@ -482,13 +482,10 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
 }
 .gtco-cover a {
-  color: #FBB448;
-  font-size: 18px;
+  color: #9ecc4b;
+  font-size: 16px;
 }
-.gtco-cover a:hover {
-  color: #2E2E2E;
-  font-size: 18px;
-}
+
 .gtco-cover .overlay {
   z-index: 1;
   position: absolute;
